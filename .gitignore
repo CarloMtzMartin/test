@@ -1,0 +1,16 @@
+# API keys and secrets
+
+# Dependency directory
+node_modules
+
+# testing
+.nyc_output
+
+# files
+images
+
+# Ignore built ts files
+dist
+
+# macOS files
+.DS_Store
