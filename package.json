@@ -1,0 +1,50 @@
+{
+  "name": "dreambuilt",
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with Fastify-CLI.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/sitiorandom/dreambuilt.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/sitiorandom/dreambuilt/issues"
+  },
+  "homepage": "https://gitlab.com/sitiorandom/dreambuilt#readme",
+  "dependencies": {
+    "@fastify/auth": "3.0.2",
+    "@fastify/cors": "^8.1.0",
+    "@fastify/env": "^4.1.0",
+    "@fastify/jwt": "6.3.1",
+    "@fastify/multipart": "7.1.0",
+    "@fastify/mysql": "4.0.0",
+    "@fastify/static": "6.4.0",
+    "@fastify/swagger": "7.4.1",
+    "await-event-emitter": "^2.0.2",
+    "axios": "^1.1.2",
+    "fastify": "4.2.1",
+    "fastify-cors": "^6.1.0",
+    "fastify-plugin": "4.0.0",
+    "fastify-swagger": "5.2.0",
+    "nodemailer": "^6.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.25.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.1.0",
+    "jest": "28.1.3",
+    "nodemon": "2.0.19",
+    "pino-pretty": "^9.1.0",
+    "supertest": "^6.2.4",
+    "tap": "^16.3.2"
+  }
+}

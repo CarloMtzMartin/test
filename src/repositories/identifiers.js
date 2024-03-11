@@ -1,0 +1,30 @@
+const ACCOUNT_ROLE = {
+  ADMINISTRATOR: 1,
+  FINANCE: 2,
+  ADVERTISING: 3,
+  CLIENT: 4,
+  OPERATOR: 5
+}
+
+const ACCOUNT_STATUS = {
+  ACTIVE: 0,
+  DEACTIVE: 2
+}
+
+const STAY_STATUS = {
+  UNDEFINED: 0,
+  ACCEPT: 1,
+  DECLINE: 2
+}
+
+const MOVEMENT_TYPE = {
+  IN: 1,
+  OUT: 2
+}
+
+module.exports = {
+  ACCOUNT_ROLE,
+  ACCOUNT_STATUS,
+  STAY_STATUS,
+  MOVEMENT_TYPE
+}
