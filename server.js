@@ -24,7 +24,7 @@ fastify.ready((err) => {
     return
   }
 
-  fastify.listen({ port: fastify.config.PORT }, (err) => {
+  fastify.listen({host: '0.0.0.0', port: fastify.config.PORT }, (err) => {
     if (err) {
       fastify.log.error(err)
       process.exit(1)
